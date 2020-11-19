@@ -1,9 +1,9 @@
-;;; simple-dark-theme.el --- My theme for Emacs
+;;; simple-dark-theme.el --- Color theme for Emacs
 
 ;; Copyright (C) 2000 by Colin Baxter
 
 ;; Author: Colin Baxter <m43cap@yandex.com>
-;; URL: https://github.com/syohex/emacs-simple-dark-theme
+;; URL: https://github.com/colinbaxter/simple-dark-theme
 ;; Version: 0.01
 
 ;; This program is free software; you can redistribute it and/or modify
