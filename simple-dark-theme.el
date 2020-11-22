@@ -1,4 +1,4 @@
-;;; simple-dark-theme.el --- Color theme for Emacs
+;;; simple-dark-theme.el --- A very simple dark color theme for Emacs
 
 ;; Copyright (C) 2000 by Colin Baxter
 
@@ -21,10 +21,10 @@
 
 ;;; Commentary:
 ;;
-;; This is a very simple dark color theme for emacs.
-;; Color theme as 'emacs -r' or 'emacs --reverse-video'.
-;; Frames created by `make-frame-command' or 'emacsclient --create-frame'
-;; are not applied reverse color with '-r' or 'reverse-video' option
+;; Color themes are often extensive emacs-lisp code, with changes to more-or-less
+;; all the default settings. With 'simple-dark-theme.el', we deliberately
+;; avoid this. And because the code is minimal, new color setting can be made
+;; easily with only a cursory knowledge of emacs-lisp.
 ;;
 
 ;;; Code:
@@ -49,7 +49,6 @@
  '(mode-line ((t (:foreground "black" :background "PaleGreen"))))
  '(tool-bar ((((type x w32 mac) (class color)) (:background "light gray" :foreground "wheat" :box (:line-width 5 :style released-button))))))
 ;;
-
 
 ;;;###autoload
 (when load-file-name
