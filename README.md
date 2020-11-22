@@ -1,2 +1,2 @@
 # simple-dark-theme
-A really simple color theme for emacs
+This is a really simple color theme for emacs.
