@@ -16,8 +16,8 @@ A really simple color theme for emacs.
 * Installation
 The simplest way to install is to download the file
 =simple-dark-theme.el= and put it in your custom theme directory. The
-default value of the custom theme directory is =~/.emacs.d/themes=,
-but you can change this by adding the lines
+default value of the custom theme directory is =~/.emacs.d/themes=.
+This can changed this by adding the lines
 
 #+begin_src elisp
  (setq custom-theme-directory "~/path/to/personal/themes/directory")
@@ -31,12 +31,12 @@ the lines
  (enable-theme 'simple-dark)
 #+end_src
 
-to your emacs init file, or do =M-x load-theme= then press TAB to show
-a list of available themes and then select appropriately. The process
-can be reversed by doing =M-x disable-theme=.
+to your emacs init file. You can also do =M-x load-theme= and press
+TAB to show a list of available themes to select. The process can be
+reversed by doing =M-x disable-theme=.
 
 If you have a =custom-set-faces= in your emacs-init file then you may
-find the colors have change. If this is not what one what then either
+find the colors have changed. If this is not what you want then either
 delete or comment out the custom-set-faces.
 
 * Modifications
@@ -46,15 +46,16 @@ A =simple-light-theme= can be created by just changing the line
  '(default ((t (:foreground "white" :background "black" :weight normal))))
 #+end_src
 
-in =simple-dark-theme.el= to
-
-#+begin_src elisp
- '(default ((t (:foreground "black" :background "white" :weight normal))))
-#+end_src
+in =simple-dark-theme.el= to =:foreground "black"= and =:background
+"white"=.
 
 You can the use something like
 https://github.com/valignatev/heaven-and-hell to toggle between simple
 dark and simple light themes.
+
+#+begin_src elisp
+ '(default ((t (:foreground "black" :background "white" :weight normal))))
+#+end_src
 
 * End of file and local variables                                  :noexport:
 # Local Variables:
