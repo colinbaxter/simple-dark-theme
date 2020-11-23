@@ -37,7 +37,7 @@ reversed by doing =M-x disable-theme=.
 
 If you have a =custom-set-faces= in your emacs-init file then you may
 find the colors have changed. If this is not what you want then either
-delete or comment out the custom-set-faces.
+delete or comment out =custom-set-faces=.
 
 * Modifications
 A =simple-light-theme= can be created by just changing the line
@@ -52,10 +52,6 @@ in =simple-dark-theme.el= to =:foreground "black"= and =:background
 You can the use something like
 https://github.com/valignatev/heaven-and-hell to toggle between simple
 dark and simple light themes.
-
-#+begin_src elisp
- '(default ((t (:foreground "black" :background "white" :weight normal))))
-#+end_src
 
 * Screen Shots
 
