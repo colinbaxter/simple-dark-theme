@@ -1,19 +1,22 @@
 # Table of Contents
 
-1.  [What is it?](#orgc851890)
-2.  [Installation](#orge2d814f)
-3.  [Modifications](#orgeddb62f)
+1.  [What is it?](#orgcaf1b6b)
+2.  [Installation](#org7eca219)
+3.  [Modifications](#org1463af2)
+4.  [Screen Shots](#orgb79c038)
+    1.  [Emacs in an xterm with tmux](#orgad5756f)
+    2.  [Emacs as a GUI](#org077864d)
 
 
 
-<a id="orgc851890"></a>
+<a id="orgcaf1b6b"></a>
 
 # What is it?
 
 A really simple color theme for emacs.
 
 
-<a id="orge2d814f"></a>
+<a id="org7eca219"></a>
 
 # Installation
 
@@ -39,7 +42,7 @@ find the colors have changed. If this is not what you want then either
 delete or comment out the custom-set-faces.
 
 
-<a id="orgeddb62f"></a>
+<a id="org1463af2"></a>
 
 # Modifications
 
@@ -55,3 +58,22 @@ You can the use something like
 dark and simple light themes.
 
     '(default ((t (:foreground "black" :background "white" :weight normal))))
+
+
+<a id="orgb79c038"></a>
+
+# Screen Shots
+
+
+<a id="orgad5756f"></a>
+
+## Emacs in an xterm with tmux
+
+![img](screenshots/screenshot01.png)
+
+
+<a id="org077864d"></a>
+
+## Emacs as a GUI
+
+![img](screenshots/screenshot02.png)

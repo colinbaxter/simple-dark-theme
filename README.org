@@ -57,6 +57,16 @@ dark and simple light themes.
  '(default ((t (:foreground "black" :background "white" :weight normal))))
 #+end_src
 
+* Screen Shots
+
+** Emacs in an xterm with tmux
+
+[[file:screenshots/screenshot01.png]]
+
+** Emacs as a GUI
+
+[[file:screenshots/screenshot02.png]]
+
 * End of file and local variables                                  :noexport:
 # Local Variables:
 # eval: (setq org-confirm-babel-evaluate nil)
