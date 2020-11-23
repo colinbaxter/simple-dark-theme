@@ -1,22 +1,22 @@
 # Table of Contents
 
-1.  [What is it?](#orgcaf1b6b)
-2.  [Installation](#org7eca219)
-3.  [Modifications](#org1463af2)
-4.  [Screen Shots](#orgb79c038)
-    1.  [Emacs in an xterm with tmux](#orgad5756f)
-    2.  [Emacs as a GUI](#org077864d)
+1.  [What is it?](#org4b4f8a1)
+2.  [Installation](#orgaec9eb3)
+3.  [Modifications](#orgfce91df)
+4.  [Screen Shots](#org539ebfb)
+    1.  [Emacs in an xterm with tmux](#org3a05153)
+    2.  [Emacs as a GUI](#org62f0bf4)
 
 
 
-<a id="orgcaf1b6b"></a>
+<a id="org4b4f8a1"></a>
 
 # What is it?
 
 A really simple color theme for emacs.
 
 
-<a id="org7eca219"></a>
+<a id="orgaec9eb3"></a>
 
 # Installation
 
@@ -39,10 +39,10 @@ reversed by doing `M-x disable-theme`.
 
 If you have a `custom-set-faces` in your emacs-init file then you may
 find the colors have changed. If this is not what you want then either
-delete or comment out the custom-set-faces.
+delete or comment out `custom-set-faces`.
 
 
-<a id="org1463af2"></a>
+<a id="orgfce91df"></a>
 
 # Modifications
 
@@ -57,22 +57,20 @@ You can the use something like
 <https://github.com/valignatev/heaven-and-hell> to toggle between simple
 dark and simple light themes.
 
-    '(default ((t (:foreground "black" :background "white" :weight normal))))
 
-
-<a id="orgb79c038"></a>
+<a id="org539ebfb"></a>
 
 # Screen Shots
 
 
-<a id="orgad5756f"></a>
+<a id="org3a05153"></a>
 
 ## Emacs in an xterm with tmux
 
 ![img](screenshots/screenshot01.png)
 
 
-<a id="org077864d"></a>
+<a id="org62f0bf4"></a>
 
 ## Emacs as a GUI
 
