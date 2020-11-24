@@ -45,6 +45,7 @@
  '(font-lock-keyword-face ((t (:foreground "springgreen"))))
  '(font-lock-type-face ((t (:foreground "PaleGreen"))))
  '(font-lock-variable-name-face ((t (:foreground "Coral"))))
+ '(org-verbatim ((t (:foreground "#008b8b"))))
  '(menu ((((type x-toolkit)) (:background "light slate gray" :foreground "wheat" :box (:line-width 2 :color "grey75" :style released-button)))))
  '(mode-line ((t (:foreground "black" :background "PaleGreen"))))
  '(tool-bar ((((type x w32 mac) (class color)) (:background "light gray" :foreground "wheat" :box (:line-width 5 :style released-button))))))
