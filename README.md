@@ -1,22 +1,22 @@
 # Table of Contents
 
-1.  [What is it?](#org4b4f8a1)
-2.  [Installation](#orgaec9eb3)
-3.  [Modifications](#orgfce91df)
-4.  [Screen Shots](#org539ebfb)
-    1.  [Emacs in an xterm with tmux](#org3a05153)
-    2.  [Emacs as a GUI](#org62f0bf4)
+1.  [What is it?](#org02bcb5d)
+2.  [Installation](#org11acde2)
+3.  [Modifications](#org321c9c3)
+4.  [Screen Shots](#org205636d)
+    1.  [Emacs in an xterm with tmux](#orgfaa4498)
+    2.  [Emacs as a GUI](#orgf8f5eae)
 
 
 
-<a id="org4b4f8a1"></a>
+<a id="org02bcb5d"></a>
 
 # What is it?
 
 A really simple color theme for emacs.
 
 
-<a id="orgaec9eb3"></a>
+<a id="org11acde2"></a>
 
 # Installation
 
@@ -42,7 +42,7 @@ find the colors have changed. If this is not what you want then either
 delete or comment out `custom-set-faces`.
 
 
-<a id="orgfce91df"></a>
+<a id="org321c9c3"></a>
 
 # Modifications
 
@@ -53,24 +53,24 @@ A `simple-light-theme` can be created by just changing the line
 in `simple-dark-theme.el` to `:foreground "black"` and `:background
 "white"`.
 
-You can the use something like
+You can then use something like
 <https://github.com/valignatev/heaven-and-hell> to toggle between simple
 dark and simple light themes.
 
 
-<a id="org539ebfb"></a>
+<a id="org205636d"></a>
 
 # Screen Shots
 
 
-<a id="org3a05153"></a>
+<a id="orgfaa4498"></a>
 
 ## Emacs in an xterm with tmux
 
 ![img](screenshots/screenshot01.png)
 
 
-<a id="org62f0bf4"></a>
+<a id="orgf8f5eae"></a>
 
 ## Emacs as a GUI
 
